@@ -1,0 +1,140 @@
+
+body{
+    font-family: 'ubuntu';
+}
+
+.container{
+    display: flex;
+    width:100%;
+    height: 5rem;
+    margin: 0 auto;
+    justify-content: space-around;
+    background:#F8F8F8;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background: white;
+    color:#1792D2;
+}
+
+h1{
+    font-family: 'lora', sans-serif;
+    color:#143774;
+    margin: 0;
+}
+
+.sub-title{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #1792D2;
+    margin: 0;
+    
+}
+
+
+ul{
+    list-style: none;
+    font-family: 'ubuntu';
+    font-weight: bold;
+    display:flex;
+}
+
+li{
+    margin: 0 12px;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.article-date{
+    margin: 0;
+
+}
+
+article img{
+    width: 200px;
+    margin-right: 15px;
+}
+
+.article-contents{
+    font-family: 'ubuntu',sans-serif;
+}
+
+.more-read{
+    font-family: 'ubuntu',sans-serif;
+    text-transform: lowercase;
+    color: #1792D2;
+}
+
+.main-container{
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+
+aside{
+    width: 50%;
+    padding-left: 70px;
+}
+
+
+
+aside img{
+    padding: 11px;
+    width: 88%;
+}
+
+
+.about-me{
+    border: 20px solid #EBEBEB;
+    font-family: 'ubuntu';
+    height: 290px;
+    width: 240px;
+    padding: 3px;
+    margin-top: 0;
+    margin-left: 12px;
+}
+
+
+.recent-posts{
+    border: 20px solid #EBEBEB;
+    width: 240px;
+    font-family: 'ubuntu';
+    padding: 3px;
+    margin: 12px;
+}
+
+.about-me h1{
+    margin: 6px 0 0 30px;
+}
+
+
+.dash-line{
+    color: #EBEBEB;
+}
+
+
+header{
+    margin-bottom: 30px;
+}
+
+
+footer{
+    font-family: 'ubuntu';
+    font-weight: bold;
+    background:#143774 ;
+    color: white;
+    height: 50px;
+    padding: 50px;
+    text-align: center;
+
+}
